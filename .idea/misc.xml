@@ -3,14 +3,18 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Irvan/Programming/AndroidStudioProject/MSIB/tugas_topic5/app/src/main/res/layout/activity_judul.xml" value="0.22" />
-        <entry key="..\:/Irvan/Programming/AndroidStudioProject/MSIB/tugas_topic5/app/src/main/res/layout/activity_main.xml" value="0.33" />
-        <entry key="..\:/Irvan/Programming/AndroidStudioProject/MSIB/tugas_topic5/app/src/main/res/layout/google_logo.xml" value="0.35280797101449274" />
-        <entry key="..\:/Irvan/Programming/AndroidStudioProject/MSIB/tugas_topic5/app/src/main/res/menu/bottom_navbar_menu.xml" value="0.3625" />
+        <entry key="..\:/1. Kuliah/Semester 5/1. Android Binar/Chapter 2 - SOLID, Code Conven/Coding/tugas_topic5/app/src/main/res/layout/activity_judul.xml" value="0.20677083333333332" />
+        <entry key="..\:/1. Kuliah/Semester 5/1. Android Binar/Chapter 2 - SOLID, Code Conven/Coding/tugas_topic5/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/1. Kuliah/Semester 5/1. Android Binar/Chapter 2 - SOLID, Code Conven/Coding/tugas_topic5/app/src/main/res/layout/bottom_navbar.xml" value="0.20677083333333332" />
+        <entry key="..\:/1. Kuliah/Semester 5/1. Android Binar/Chapter 2 - SOLID, Code Conven/Coding/tugas_topic5/app/src/main/res/layout/google_logo.xml" value="0.20572916666666666" />
+        <entry key="..\:/1. Kuliah/Semester 5/1. Android Binar/Chapter 2 - SOLID, Code Conven/Coding/tugas_topic5/app/src/main/res/layout/layout_10.xml" value="0.20677083333333332" />
+        <entry key="..\:/1. Kuliah/Semester 5/1. Android Binar/Chapter 2 - SOLID, Code Conven/Coding/tugas_topic5/app/src/main/res/layout/layout_6.xml" value="0.25" />
+        <entry key="..\:/1. Kuliah/Semester 5/1. Android Binar/Chapter 2 - SOLID, Code Conven/Coding/tugas_topic5/app/src/main/res/layout/news_detail.xml" value="0.25" />
+        <entry key="..\:/1. Kuliah/Semester 5/1. Android Binar/Chapter 2 - SOLID, Code Conven/Coding/tugas_topic5/app/src/main/res/menu/bottom_navbar_menu.xml" value="0.20572916666666666" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
