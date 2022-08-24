@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/untukAnda"
+        android:icon="@drawable/user"
+        android:title="@string/untuk_anda" />
+    <item
+        android:id="@+id/judul"
+        android:icon="@drawable/globe"
+        android:title="@string/judul"/>
+    <item
+        android:id="@+id/favorite"
+        android:icon="@drawable/star"
+        android:title="@string/favorite" />
+    <item
+        android:id="@+id/kios"
+        android:icon="@drawable/book"
+        android:title="@string/kios" />
+</menu>

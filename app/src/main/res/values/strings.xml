@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">tugas_topic5</string>
+    <string name="untuk_anda">Untuk Anda</string>
+    <string name="judul">Judul</string>
+    <string name="favorite">Favorite</string>
+    <string name="kios">Kios</string>
 </resources>
