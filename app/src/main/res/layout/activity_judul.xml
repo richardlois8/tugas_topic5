@@ -37,66 +37,76 @@
             android:src="@drawable/user"
             />
     </LinearLayout>
-    <LinearLayout
-        android:id="@+id/slideBarMenu"
-        android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:orientation="horizontal"
-        android:layout_gravity="center"
+
+    <HorizontalScrollView
+        android:id="@+id/hsBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_below="@+id/topAppBar">
+
+        <LinearLayout
+            android:id="@+id/slideBarMenu"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Terbaru"
-                android:textStyle="bold"
-                android:textSize="15sp"
                 android:layout_gravity="center"
                 android:layout_marginLeft="15dp"
                 android:layout_marginRight="30dp"
-                />
+                android:text="Terbaru"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Indonesia"
-                android:textStyle="bold"
-                android:textSize="15sp"
                 android:layout_gravity="center"
                 android:layout_marginRight="30dp"
-                />
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Dunia"
-            android:textStyle="bold"
-            android:textSize="15sp"
-            android:layout_gravity="center"
-            android:layout_marginRight="30dp"
-            />
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Bisnis"
-            android:textStyle="bold"
-            android:textSize="15sp"
-            android:layout_gravity="center"
-            android:layout_marginRight="30dp"
-            />
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Teknologi"
-            android:textStyle="bold"
-            android:textSize="15sp"
-            android:layout_gravity="center"
-            android:layout_marginRight="10dp"
-            />
-    </LinearLayout>
+                android:text="Indonesia"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginRight="30dp"
+                android:text="Dunia"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginRight="30dp"
+                android:text="Bisnis"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginRight="10dp"
+                android:text="Teknologi"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+
+
     <View
         android:id="@+id/divider"
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:background="#C6C6C6"
-        android:layout_below="@id/slideBarMenu"/>
+        android:layout_below="@id/hsBar"
+        android:background="#C6C6C6" />
     <ScrollView
         android:id="@+id/svNews"
         android:layout_width="match_parent"
