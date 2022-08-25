@@ -3,9 +3,9 @@ package com.example.tugas_topic5
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
-class MainActivity : AppCompatActivity() {
+class judul_activity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.layout_6)
+        setContentView(R.layout.activity_judul)
     }
 }
