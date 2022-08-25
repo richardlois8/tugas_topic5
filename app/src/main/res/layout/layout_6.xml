@@ -166,24 +166,26 @@
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
+
                     <TextView
                         android:id="@+id/tvTitleLokal"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="20dp"
                         android:text="Lokal"
                         android:textSize="30sp"
-                        android:textStyle="bold"
-                        android:layout_marginTop="20dp"
-                        android:layout_marginLeft="20dp"/>
+                        android:textStyle="bold" />
+
                     <TextView
                         android:id="@+id/tvDescLokal"
                         android:layout_width="200dp"
                         android:layout_height="wrap_content"
-                        android:text="Anda tidak mengikuti lokal apa pun. Tambahkan lokal untuk melihat artikel lainnya tentang lokal tersebut di feed Untuk Anda."
-                        android:textSize="20sp"
                         android:layout_below="@id/tvTitleLokal"
+                        android:layout_marginLeft="20dp"
                         android:layout_marginTop="10dp"
-                        android:layout_marginLeft="20dp"/>
+                        android:text="Anda tidak mengikuti lokal apa pun. Tambahkan lokal untuk melihat artikel lainnya tentang lokal tersebut di feed Untuk Anda."
+                        android:textSize="20sp" />
                     <TextView
                         android:id="@+id/tvAddLokal"
                         android:layout_width="200dp"
