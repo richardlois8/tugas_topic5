@@ -85,8 +85,21 @@
                         android:text="5 artikel teratas sekarang"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"/>
+                    <ImageView
+                        android:id="@+id/icon_cuaca"
+                        android:layout_marginStart="330dp"
+                        android:src="@drawable/cuaca"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"/>
+                    <TextView
+                        android:layout_marginTop="-15dp"
+                        android:layout_marginStart="350dp"
+                        android:layout_below="@+id/icon_cuaca"
+                        android:text="24°C"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
 
-                    
+
                 </RelativeLayout>
 
             </androidx.cardview.widget.CardView>
