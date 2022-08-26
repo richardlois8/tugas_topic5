@@ -12,14 +12,15 @@
         android:id="@+id/search_bar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/Shape"
-        android:iconifiedByDefault="false"
-        android:layout_marginTop="4dp"
         android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/shape"
+        android:iconifiedByDefault="false"
         android:queryHint="cari kiat penggunaan" />
 
     <ImageView
         android:id="@+id/Iconsetting"
+        android:layout_marginTop="10dp"
         android:layout_width="74dp"
         android:layout_height="52dp"
         android:layout_alignParentRight="true"
@@ -44,7 +45,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopof="parent" />
+            />
     </androidx.cardview.widget.CardView>
 
     <RelativeLayout
@@ -52,10 +53,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/gambar"
-        android:orientation="horizontal"
         android:layout_marginLeft="15dp"
         android:layout_marginTop="15dp"
-        android:gravity="center">
+        android:gravity="center"
+        android:orientation="horizontal">
 
         <androidx.cardview.widget.CardView
             android:id="@+id/dashbor1"
@@ -63,9 +64,9 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_margin="5dp"
+            android:backgroundTint="@color/purple_500"
             android:clickable="true"
             android:orientation="horizontal"
-            android:backgroundTint="@color/purple_500"
             app:cardCornerRadius="10dp"
             app:cardElevation="5dp">
 
@@ -94,14 +95,14 @@
 
         <androidx.cardview.widget.CardView
             android:id="@+id/dashbor2"
-            android:layout_toRightOf="@+id/dashbor1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_margin="5dp"
+            android:layout_toRightOf="@+id/dashbor1"
+            android:backgroundTint="@color/pink"
             android:clickable="true"
             android:orientation="horizontal"
-            android:backgroundTint="@color/pink"
             app:cardCornerRadius="10dp"
             app:cardElevation="5dp">
 
@@ -119,6 +120,7 @@
 
             </LinearLayout>
         </androidx.cardview.widget.CardView>
+
         <TextView
             android:id="@+id/dashborText2"
             android:layout_width="wrap_content"
@@ -130,14 +132,14 @@
 
         <androidx.cardview.widget.CardView
             android:id="@+id/dashbor3"
-            android:layout_toRightOf="@+id/dashbor2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_margin="5dp"
+            android:layout_toRightOf="@+id/dashbor2"
+            android:backgroundTint="@color/pink"
             android:clickable="true"
             android:orientation="horizontal"
-            android:backgroundTint="@color/pink"
             app:cardCornerRadius="10dp"
             app:cardElevation="5dp">
 
@@ -154,6 +156,7 @@
                     android:src="@drawable/ic_outline_tonality_24" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
+
         <TextView
             android:id="@+id/dashborText4"
             android:layout_width="wrap_content"
@@ -165,14 +168,14 @@
 
         <androidx.cardview.widget.CardView
             android:id="@+id/dashbor4"
-            android:layout_toRightOf="@+id/dashbor3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_margin="5dp"
+            android:layout_toRightOf="@+id/dashbor3"
+            android:backgroundTint="@color/blue"
             android:clickable="true"
             android:orientation="horizontal"
-            android:backgroundTint="@color/blue"
             app:cardCornerRadius="10dp"
             app:cardElevation="5dp">
 
@@ -198,7 +201,6 @@
             android:layout_marginLeft="265dp"
             android:text="Alat"
             android:textColor="@color/white" />
-
 
 
     </RelativeLayout>
