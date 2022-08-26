@@ -1,171 +1,170 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@color/black">
-
+    <!--    Header -->
     <RelativeLayout
-        android:id="@+id/topAppBar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/header_title">
 
         <ImageView
-            android:layout_width="35dp"
-            android:layout_height="35dp"
-            android:layout_gravity="center_vertical"
-            android:layout_margin="20dp"
-            android:src="@drawable/ic_baseline_arrow_back_24" />
-
-        <TextView
-            android:id="@+id/Text1D"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_vertical"
-            android:layout_marginLeft="70dp"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
             android:layout_marginTop="20dp"
-            android:text="Alat"
-            android:textColor="@color/white"
-            android:textSize="25sp"
-            android:textStyle="bold" />
-
-        <TextView
-            android:id="@+id/Text2D"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/setting_backvector"
+            android:id="@+id/backbutton"/>
+        <LinearLayout
+            android:layout_toRightOf="@id/backbutton"
+            android:orientation="vertical"
             android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Alat"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="18dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:text="1/16"
+                android:textColor="@color/white"
+                android:textSize="15dp"/>
+        </LinearLayout>
+        <ImageView
+            android:layout_alignParentRight="true"
+            android:src="@drawable/setting_upload"
+            android:layout_width="20dp"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/Text1D"
-            android:layout_marginLeft="70dp"
-            android:layout_marginTop="5dp"
-            android:text="1/18"
-            android:textAlignment="center"
-            android:textColor="@color/white" />
+            android:layout_centerInParent="true"
+            android:id="@+id/upload"
+            />
 
         <ImageView
-            android:id="@+id/IconShare"
-            android:layout_width="74dp"
-            android:layout_height="52dp"
-            android:layout_alignParentRight="true"
-            android:layout_marginTop="20dp"
-            android:layout_marginRight="11dp"
-            app:srcCompat="@drawable/ic_baseline_ios_share_24" />
-        <ImageView
-            android:id="@+id/IconList"
-            app:srcCompat="@drawable/ic_baseline_format_list_bulleted_24"
-            android:layout_width="74dp"
-            android:layout_marginTop="25dp"
-            android:layout_height="52dp"
-            android:layout_alignParentRight="true"
-            android:layout_marginRight="70dp" />
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="30dp"
+            android:layout_toLeftOf="@id/upload"
+            android:src="@drawable/setting_menu"/>
     </RelativeLayout>
+    <!--    Hero   -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="#929292"
+        android:layout_below="@id/header_title"
+        android:id="@+id/hero">
 
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="15dp"
+            android:src="@drawable/setting_phone4" />
+    </RelativeLayout>
+    <!--    Content   -->
     <LinearLayout
-        android:id="@+id/bacrod"
+        android:id="@+id/content"
+        android:layout_below="@id/hero"
+        android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:background="@color/gray"
-        android:layout_below="@+id/topAppBar"
-        android:layout_marginTop="20dp">
-        <androidx.cardview.widget.CardView
-            android:id="@+id/gambaralat"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mengonversi Cepat Aplikasi Kalkulator Normal menjadi Kalkulator Ilmiah! Kalkulator"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="18.5dp"/>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="kalkulator"
+                android:textColor="#2F4376"
+                android:background="@drawable/setting_tag"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="2dp"
+                android:paddingBottom="2dp"/>
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/setting_eye"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="30dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1126K"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="13dp"
+                android:layout_marginLeft="10dp"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_marginTop="20dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:cardCornerRadius="15dp"
-            app:cardUseCompatPadding="true">
-
-            <FrameLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-                <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="300dp"
-                    android:src="@drawable/gambar_alat"
-                    android:background="@color/gray"/>
-            </FrameLayout>
-        </androidx.cardview.widget.CardView>
+            android:textColor="@color/white"
+            android:textSize="16dp"
+            android:text="Putar telepon secara fisik sehingga orientasi layar menjadi horizontal alih-alih vertikal-hal ini akan mengubah kalkulator ke mode ilmiah."/>
     </LinearLayout>
 
-    <RelativeLayout
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/content"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="15dp"
+        android:text="Cobalah Sekarang"
+        android:textStyle="bold"
+
+        android:background="@drawable/setting_button"/>
+
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/bacrod"
-        android:layout_marginTop="1dp">
-
-        <TextView
-            android:id="@+id/grptext"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="15dp"
-            android:layout_marginTop="15dp"
-            android:text="Mengonversi cepat Apliksi Kalkulator Normal menjadi Kalkulator Ilmiah!"
-            android:textColor="@color/white"
-            android:textSize="22dp"
-            android:textStyle="bold" />
-
-        <TextView
-            android:id="@+id/text1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/grptext"
-            android:layout_marginLeft="20dp"
-            android:layout_marginTop="10dp"
-            android:text="Kalkulator"
-            android:textColor="@color/white"
-            android:textSize="20dp"
-            android:textStyle="bold" />
-
-        <TextView
-            android:id="@+id/text2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/grptext"
-            android:layout_marginLeft="20dp"
-            android:layout_marginTop="10dp"
-            android:layout_toRightOf="@+id/text1"
-            android:drawableLeft="@drawable/ic_baseline_remove_red_eye_24"
-            android:text="1291K"
-            android:textColor="@color/white"
-            android:textSize="15dp" />
-
-        <TextView
-            android:id="@+id/dashbortext"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/text1"
-            android:layout_marginLeft="15dp"
-            android:layout_marginTop="20dp"
-            android:text="Putar telepon secara fisik sehingga Orientasi layar menjadi horizontal alih_alih verikal - hal ini kan mengubah kalkulator ke mode ilmiah."
-            android:textColor="@color/white"
-            android:textSize="22dp"
-            android:textStyle="bold" />
-
-        <Button
-            android:id="@+id/clik"
-            android:layout_width="364dp"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/dashbortext"
-            android:layout_marginLeft="20dp"
-            android:layout_marginTop="24dp"
-            android:background="@drawable/shape_color"
-            android:iconifiedByDefault="false"
-            android:text="Cobalah sekarang" />
-
-    </RelativeLayout>
-
-
-    <TextView
-        android:id="@+id/Like"
-        android:layout_width="121dp"
-        android:layout_height="60dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="10dp"
-        android:drawableLeft="@drawable/ic_baseline_thumb_up_24"
-        android:text="1291K"
-        android:textColor="@color/white"
-        android:textSize="30dp" />
+        android:layout_marginBottom="10dp"
 
+        >
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/setting_like"
+            android:layout_marginRight="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Suka : 10k"
+            android:textColor="@color/white"
+            android:textStyle="bold"/>
 
+    </LinearLayout>
 </RelativeLayout>
