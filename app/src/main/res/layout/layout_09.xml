@@ -29,7 +29,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Pengaturan"
+                android:text="Personalisasi"
                 android:textColor="@color/white"
                 android:textStyle="bold"
                 android:textSize="18dp"/>
@@ -66,12 +66,13 @@
         android:background="#929292"
         android:layout_below="@id/header_title"
         android:id="@+id/hero">
+
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:paddingTop="15dp"
             android:paddingBottom="15dp"
-            android:src="@drawable/setting_phone"/>
+            android:src="@drawable/setting_phone2" />
     </RelativeLayout>
 <!--    Content   -->
     <LinearLayout
@@ -86,7 +87,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Bagaimana cara memainkan game tenpa terganggu notifikasi atau panggilan telepon?"
+            android:text="Bagaimana Cara menggunakan Angkat untuk Membangunkan di Telepon?"
             android:textColor="@color/white"
             android:textStyle="bold"
             android:textSize="18.5dp"/>
@@ -99,7 +100,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="sxasxsx"
+                android:text="pengaturan"
                 android:textColor="#2F4376"
                 android:background="@drawable/setting_tag"
                 android:paddingLeft="10dp"
@@ -115,7 +116,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="1004K"
+                android:text="1291K"
                 android:textColor="@color/white"
                 android:textStyle="bold"
                 android:textSize="13dp"
@@ -128,18 +129,19 @@
             android:layout_height="wrap_content"
             android:textColor="@color/white"
             android:textSize="16dp"
-            android:text="Buka Pengaturan > Mode Game Ultra, lalu nyalakan Bisukan notifikasi dan Panggilan latar belakang. Anda dapat menikmati pengalaman bermain game penuh tanpa perlu terganggu oleh panggilan masuk atau notifikasi."/>
+            android:text="Masuk ke Pengaturan. Cari Hidupkan/matikan layar pintar > hidupkan Angkat untuk membangunkan. Kemudian layar akan secara otomatis bangun ketika Anda mengangkat telepon dari permukaan datar."/>
 
     </LinearLayout>
 
     <Button
-        android:layout_marginTop="20dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
         android:backgroundTint="#5B81FE"
         android:text="Cobalah Sekarang"
-        android:layout_marginLeft="15dp"/>
+        android:textStyle="bold"/>
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -156,7 +158,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Suka : 18k"
+            android:text="Suka : 14k"
             android:textColor="@color/white"
             android:textStyle="bold"/>
 
