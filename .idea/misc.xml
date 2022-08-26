@@ -3,32 +3,28 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Irvan/Programming/AndroidStudioProject/MSIB/tugas_topic5/app/src/main/res/drawable/Shape.xml" value="0.28" />
-        <entry key="..\:/Irvan/Programming/AndroidStudioProject/MSIB/tugas_topic5/app/src/main/res/drawable/shape_color.xml" value="0.1995" />
+        <entry key="..\:/1. Kuliah/Semester 5/1. Android Binar/Chapter 2 - SOLID, Code Conven/Coding/tugas_topic5/app/src/main/res/drawable/ic_arrow_back.xml" value="0.141" />
+        <entry key="..\:/1. Kuliah/Semester 5/1. Android Binar/Chapter 2 - SOLID, Code Conven/Coding/tugas_topic5/app/src/main/res/drawable/setting_button.xml" value="0.141" />
+        <entry key="..\:/1. Kuliah/Semester 5/1. Android Binar/Chapter 2 - SOLID, Code Conven/Coding/tugas_topic5/app/src/main/res/layout/activity_judul.xml" value="0.21" />
+        <entry key="..\:/1. Kuliah/Semester 5/1. Android Binar/Chapter 2 - SOLID, Code Conven/Coding/tugas_topic5/app/src/main/res/layout/activity_kios.xml" value="0.22447916666666667" />
+        <entry key="..\:/1. Kuliah/Semester 5/1. Android Binar/Chapter 2 - SOLID, Code Conven/Coding/tugas_topic5/app/src/main/res/layout/bottom_navbar.xml" value="0.17" />
+        <entry key="..\:/1. Kuliah/Semester 5/1. Android Binar/Chapter 2 - SOLID, Code Conven/Coding/tugas_topic5/app/src/main/res/layout/google_logo.xml" value="0.2" />
+        <entry key="..\:/1. Kuliah/Semester 5/1. Android Binar/Chapter 2 - SOLID, Code Conven/Coding/tugas_topic5/app/src/main/res/layout/layout_09.xml" value="0.22447916666666667" />
+        <entry key="..\:/1. Kuliah/Semester 5/1. Android Binar/Chapter 2 - SOLID, Code Conven/Coding/tugas_topic5/app/src/main/res/layout/layout_10.xml" value="0.22447916666666667" />
+        <entry key="..\:/1. Kuliah/Semester 5/1. Android Binar/Chapter 2 - SOLID, Code Conven/Coding/tugas_topic5/app/src/main/res/layout/layout_11.xml" value="0.22447916666666667" />
+        <entry key="..\:/1. Kuliah/Semester 5/1. Android Binar/Chapter 2 - SOLID, Code Conven/Coding/tugas_topic5/app/src/main/res/layout/layout_12.xml" value="0.22447916666666667" />
+        <entry key="..\:/1. Kuliah/Semester 5/1. Android Binar/Chapter 2 - SOLID, Code Conven/Coding/tugas_topic5/app/src/main/res/layout/layout_2.xml" value="0.22447916666666667" />
+        <entry key="..\:/1. Kuliah/Semester 5/1. Android Binar/Chapter 2 - SOLID, Code Conven/Coding/tugas_topic5/app/src/main/res/layout/layout_6.xml" value="0.21" />
+        <entry key="..\:/1. Kuliah/Semester 5/1. Android Binar/Chapter 2 - SOLID, Code Conven/Coding/tugas_topic5/app/src/main/res/layout/layout_7.xml" value="0.22447916666666667" />
+        <entry key="..\:/1. Kuliah/Semester 5/1. Android Binar/Chapter 2 - SOLID, Code Conven/Coding/tugas_topic5/app/src/main/res/layout/layout_8.xml" value="0.22447916666666667" />
+        <entry key="..\:/1. Kuliah/Semester 5/1. Android Binar/Chapter 2 - SOLID, Code Conven/Coding/tugas_topic5/app/src/main/res/layout/news_detail.xml" value="0.25" />
         <entry key="..\:/Irvan/Programming/AndroidStudioProject/MSIB/tugas_topic5/app/src/main/res/drawable/white_circle.xml" value="0.207" />
-        <entry key="..\:/Irvan/Programming/AndroidStudioProject/MSIB/tugas_topic5/app/src/main/res/layout/activity_judul.xml" value="0.33" />
+        <entry key="..\:/Irvan/Programming/AndroidStudioProject/MSIB/tugas_topic5/app/src/main/res/layout/activity_judul.xml" value="0.22" />
         <entry key="..\:/Irvan/Programming/AndroidStudioProject/MSIB/tugas_topic5/app/src/main/res/layout/activity_kios.xml" value="0.25" />
         <entry key="..\:/Irvan/Programming/AndroidStudioProject/MSIB/tugas_topic5/app/src/main/res/layout/activity_main.xml" value="0.33" />
-        <entry key="..\:/Irvan/Programming/AndroidStudioProject/MSIB/tugas_topic5/app/src/main/res/layout/bottom_navbar.xml" value="0.3180846515604959" />
         <entry key="..\:/Irvan/Programming/AndroidStudioProject/MSIB/tugas_topic5/app/src/main/res/layout/google_logo.xml" value="0.35280797101449274" />
-        <entry key="..\:/Irvan/Programming/AndroidStudioProject/MSIB/tugas_topic5/app/src/main/res/layout/layout_12.xml" value="0.3180846515604959" />
-        <entry key="..\:/Irvan/Programming/AndroidStudioProject/MSIB/tugas_topic5/app/src/main/res/layout/layout_2.xml" value="0.3180846515604959" />
-        <entry key="..\:/Irvan/Programming/AndroidStudioProject/MSIB/tugas_topic5/app/src/main/res/layout/layout_6.xml" value="0.3180846515604959" />
-        <entry key="..\:/Irvan/Programming/AndroidStudioProject/MSIB/tugas_topic5/app/src/main/res/layout/layout_7.xml" value="0.25" />
-        <entry key="..\:/Irvan/Programming/AndroidStudioProject/MSIB/tugas_topic5/app/src/main/res/layout/news_detail.xml" value="0.3180846515604959" />
         <entry key="..\:/Irvan/Programming/AndroidStudioProject/MSIB/tugas_topic5/app/src/main/res/layout/testlayout.xml" value="0.33" />
         <entry key="..\:/Irvan/Programming/AndroidStudioProject/MSIB/tugas_topic5/app/src/main/res/menu/bottom_navbar_menu.xml" value="0.3625" />
-        <entry key="..\:/Program_Files/Tugas Chapt2 Topic5/app/src/main/res/drawable/setting_rounded.xml" value="0.232" />
-        <entry key="..\:/Program_Files/Tugas Chapt2 Topic5/app/src/main/res/drawable/setting_tag.xml" value="0.233" />
-        <entry key="..\:/Program_Files/Tugas Chapt2 Topic5/app/src/main/res/layout/activity_judul.xml" value="0.24547101449275363" />
-        <entry key="..\:/Program_Files/Tugas Chapt2 Topic5/app/src/main/res/layout/activity_kios.xml" value="0.24547101449275363" />
-        <entry key="..\:/Program_Files/Tugas Chapt2 Topic5/app/src/main/res/layout/bottom_navbar.xml" value="0.12360688956433637" />
-        <entry key="..\:/Program_Files/Tugas Chapt2 Topic5/app/src/main/res/layout/google_logo.xml" value="0.24547101449275363" />
-        <entry key="..\:/Program_Files/Tugas Chapt2 Topic5/app/src/main/res/layout/layout_10.xml" value="0.2265625" />
-        <entry key="..\:/Program_Files/Tugas Chapt2 Topic5/app/src/main/res/layout/layout_11.xml" value="0.264" />
-        <entry key="..\:/Program_Files/Tugas Chapt2 Topic5/app/src/main/res/layout/layout_12.xml" value="0.24547101449275363" />
-        <entry key="..\:/Program_Files/Tugas Chapt2 Topic5/app/src/main/res/layout/layout_9.xml" value="0.2265625" />
-        <entry key="..\:/Program_Files/Tugas Chapt2 Topic5/app/src/main/res/layout/news_detail.xml" value="0.24547101449275363" />
       </map>
     </option>
   </component>
